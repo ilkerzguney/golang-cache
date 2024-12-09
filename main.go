@@ -18,6 +18,6 @@ func main() {
 		LeaderAddr: *leaderAddr,
 	}
 
-	server := NewServer(opts, cache.New(), opts.IsLeader ? :)
+	server := NewServer(opts, cache.New())
 	server.Start()
 }
